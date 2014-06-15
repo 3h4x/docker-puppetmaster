@@ -1,5 +1,5 @@
 FROM e1337h4xx/saltwheezy
-MAINTAINER 31337 +3r0rr "ochach@gmail.com"
+MAINTAINER 3h4x "ochach@gmail.com"
 ADD puppetlabs.list /etc/apt/sources.list.d/puppetlabs.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 4BD6EC30
 RUN apt-get -qq update
